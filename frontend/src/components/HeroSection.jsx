@@ -1,14 +1,15 @@
 import React from 'react'
 import { Typewriter } from 'react-simple-typewriter'
+import { FaFile } from "react-icons/fa6";
 
 
 const HeroSection = () => {
 
     return (
+
+
         <>
             <section id="hero" className="d-flex flex-column justify-content-center ">
-
-
                 <div className="container" data-aos="zoom-in" data-aos-delay="100">
                     <h1>Ankit Chouhan</h1>
                     <p style={{ fontWeight: 'normal' }}>
@@ -32,6 +33,7 @@ const HeroSection = () => {
                         <a href="https://join.skype.com/invite/w0FYwji6Ugt1" target='_blank' className="google-plus"><i className="bx bxl-skype"></i></a>
                         <a href="https://www.facebook.com/profile.php?id=100009915194990&mibextid=LQQJ4d" target='_blank' className="facebook"><i className="bx bxl-facebook"></i></a>
                         <a href="https://www.linkedin.com/in/ankit-chouhan-216b2a251/" target='_blank' className="linkedin"><i className="bx bxl-linkedin"></i></a>
+                        <a href="https://www.canva.com/design/DAGDTv47RgQ/d7Ttwk6iP5EfeDxGjVxZkQ/view?utm_content=DAGDTv47RgQ&utm_campaign=designshare&utm_medium=link&utm_source=editor" target='_blank' className="linkedin fs-4"><FaFile /></a>
                     </div>
                 </div>
             </section>

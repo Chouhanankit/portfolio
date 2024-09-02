@@ -6,6 +6,11 @@ import motog from '../assets/motog.png'
 import corelDraw from '../assets/CorelDraw.png'
 import uber from '../assets/Uber.png'
 import image from '../assets/Pizzahub.png'
+import subway from '../assets/Subway.png'
+import supportdesk from '../assets/supportdesk.png'
+import moon from '../assets/moon.png'
+
+
 
 const PortfolioSection = () => {
     return (
@@ -30,6 +35,24 @@ const PortfolioSection = () => {
                     </div>
 
                     <div className="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
+
+
+                        <div className="col-lg-4 col-md-6 portfolio-item filter-app">
+                            <div className="portfolio-wrap">
+                                <img src={supportdesk} className="img-fluid" alt="" />
+                                <div className="portfolio-info">
+                                    <h4>Ticket Management System</h4>
+                                    <p>App</p>
+                                    <div className="portfolio-links">
+                                        {/* <a href="assets/img/portfolio/portfolio-3.jpg" data-gallery="portfolioGallery"
+                                            className="portfolio-lightbox" title="App 2"><i className="bx bx-plus"></i></a> */}
+                                        <a href="https://supportdesk-new-fron.vercel.app/" target="_blank" className="portfolio-details-lightbox" data-glightbox="type: external"
+                                            title="Portfolio Details"><i className="bx bx-link"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
 
                         <div className="col-lg-4 col-md-6 portfolio-item filter-app">
                             <div className="portfolio-wrap">
@@ -79,6 +102,40 @@ const PortfolioSection = () => {
                             </div>
                         </div>
 
+                        <div className="col-lg-4 col-md-6 portfolio-item filter-app">
+                            <div className="portfolio-wrap">
+                                <img src={subway} className="img-fluid" alt="" />
+                                <div className="portfolio-info">
+                                    <h4>Subway</h4>
+                                    <p>Web E-Commerce</p>
+                                    <div className="portfolio-links">
+                                        {/* <a href="assets/img/portfolio/portfolio-6.jpg" data-gallery="portfolioGallery"
+                                            className="portfolio-lightbox" title="App 3"><i className="bx bx-plus"></i></a> */}
+                                        <a href="https://subway01.netlify.app/" target="_blank" className="portfolio-details-lightbox" data-glightbox="type: external"
+                                            title="Portfolio Details"><i className="bx bx-link"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="col-lg-4 col-md-6 portfolio-item filter-app">
+                            <div className="portfolio-wrap">
+                                <img src={moon} className="img-fluid" alt="" />
+                                <div className="portfolio-info">
+                                    <h4>Solor System</h4>
+                                    <p>App</p>
+                                    <div className="portfolio-links">
+                                        {/* <a href="assets/img/portfolio/portfolio-6.jpg" data-gallery="portfolioGallery"
+                                            className="portfolio-lightbox" title="App 3"><i className="bx bx-plus"></i></a> */}
+                                        <a href="https://moon-dun-six.vercel.app/" target="_blank" className="portfolio-details-lightbox" data-glightbox="type: external"
+                                            title="Portfolio Details"><i className="bx bx-link"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
                         <div className="col-lg-4 col-md-6 portfolio-item filter-card">
                             <div className="portfolio-wrap">
                                 <img src={motog} className="img-fluid" alt="" />
@@ -88,8 +145,10 @@ const PortfolioSection = () => {
                                     <div className="portfolio-links">
                                         {/* <a href="assets/img/portfolio/portfolio-4.jpg" data-gallery="portfolioGallery"
                                             className="portfolio-lightbox" title="Card 2"><i className="bx bx-plus"></i></a> */}
+
                                         <a href="https://chouhanankit.github.io/Ankitmotorola/" target="_blank" className="portfolio-details-lightbox" data-glightbox="type: external"
                                             title="Portfolio Details"><i className="bx bx-link"></i></a>
+
                                     </div>
                                 </div>
                             </div>
@@ -126,7 +185,6 @@ const PortfolioSection = () => {
                                 </div>
                             </div>
                         </div>
-
 
                     </div>
 

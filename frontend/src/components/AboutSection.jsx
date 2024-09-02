@@ -43,17 +43,17 @@ const AboutSection = () => {
                         <div className="row">
                             <div className="col-lg-6">
                                 <ul>
-                                    <li><i className="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>22 July 2001</span></li>
+                                    <li><i className="bi bi-chevron-right"></i> <strong>DOB:</strong> <span>22 July</span></li>
                                     {/* <li><i className="bi bi-chevron-right"></i> <strong>Website:</strong> <span>www.example.com</span></li> */}
                                     <li><i className="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+91 9617874140</span></li>
-                                    <li><i className="bi bi-chevron-right"></i> <strong>City:</strong> <span>Indore, India</span></li>
+                                    <li><i className="bi bi-chevron-right"></i> <strong>Location:</strong> <span>Indore, India</span></li>
                                 </ul>
                             </div>
                             <div className="col-lg-6">
                                 <ul>
                                     {/* <li><i className="bi bi-chevron-right"></i> <strong>Age:</strong> <span>30</span></li> */}
                                     <li><i className="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>Bachelor of Computer Application (BCA)</span></li>
-                                    <li><i className="bi bi-chevron-right"></i> <strong>Email</strong> <span>ankitchouhan01717@gmail.com</span>
+                                    <li><i className="bi bi-chevron-right"></i> <strong>Email:</strong> <span>ankitchouhan01717@gmail.com</span>
                                     </li>
                                     <li><i className="bi bi-chevron-right"></i> <strong>Freelance:</strong> <span>Available</span></li>
                                 </ul>
